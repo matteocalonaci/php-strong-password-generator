@@ -1,8 +1,11 @@
 MILESTONE 1
-Creare una pagina con un form. In questo form l'utente userà un input per selezionare la lunghezza della password da generare.
-Il form redirezionerà su una nuova pagina, che in base alla lunghezza scelta stamperà N volte il carattere "X". Fatelo con un ciclo che compone una stringa aggiungendo una X per volta e solo poi, alla fine, stampate l'intera stringa.
 
-Obiettivo: generiamo tante X quante ne richiede l'utente.
+Creo 2 pagine:
+form:
+- creo un form collegato con la pagina elabora con un input number e un button select.
+elabora:
+- prendo il dato scelto dall'utente.
+- tramite un ciclo for stampo una password composta da tante x quanto l'input utente ha stabilito.
 
 
 MILESTONE 2
@@ -29,3 +32,4 @@ Dare all’utente anche la possibilità di permettere o meno la ripetizione di c
 Questo vuol dire che il "dizionario" dei caratteri consentiti andrà popolato in base alle scelte dell'utente.
 
 Obiettivo: divertirvi e sperimentare.
+
