@@ -20,7 +20,7 @@ Creo un array di stringe.
 creo un ciclo for dove:
 selezione --> va a prendere un numero casuale tra 0 e 3 (le stringhe nell'array)
 last --> va a prendere la lunghezza della stringa
-password --> è il risultato di prendere una stringa casuale e stampare un elemento casuale al suo interno ripetuto per la lunghezza dell'input utente
+password --> è il risultato di prendere una stringa casuale e stampare un elemento casuale al suo interno ripetuto per la lunghezza dell'input utente.
 
 MILESTONE 3
 Fate un pò di refactoring:
