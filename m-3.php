@@ -34,11 +34,13 @@ $password = "";
     <title>php-strong-password-generator</title>
 </head>
 <body>
-<form action="indexx.php">    <input type="number" placeholder="Scrivi la tua password" name="inputUtente">
+<form action="m-3.php">    <input type="number" placeholder="Scrivi la tua password" name="inputUtente">
     <button type="select">INVIA</button>
 </form>
 
+<h3>La password sicura è : </h3>
+<?php echo getPassword($caratteri, $inputUtente, $password);
+?>
 
-    
 </body>
 </html>
