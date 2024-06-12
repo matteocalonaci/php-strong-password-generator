@@ -9,12 +9,18 @@ elabora:
 
 
 MILESTONE 2
-Sempre nella seconda pagina create una serie di caratteri consentiti (come stringa? come array?)  dove scriverete tutti i caratteri concessi: lettere maiuscole, minuscole, numeri, simboli... tutto insieme!
-Ora nel ciclo che aggiungeva una "X" alla nostra password, aggiungete invece un carattere casuale preso dalla nostra lista dei caratteri consetiti.
-Come? Ad ogni iterazione estraggo un numero casuale (tra 0 e....?) che uso come indice per pescare il carattere casuale. Questo lo aggiungo alla mia password.
 
-Obiettivo: generare una password casuale in base alla lunghezza scelta dall'utente.
+Lavoro nel file elabora
+Creo un array di stringe.
+[0] --> lettere alfabeto minuscole
+[1] --> lettere alfabeto maiuscole
+[2] --> numeri da 1 a 9
+[3] --> caratteri speciali
 
+creo un ciclo for dove:
+selezione --> va a prendere un numero casuale tra 0 e 3 (le stringhe nell'array)
+last --> va a prendere la lunghezza della stringa
+password --> è il risultato di prendere una stringa casuale e stampare un elemento casuale al suo interno ripetuto per la lunghezza dell'input utente
 
 MILESTONE 3
 Fate un pò di refactoring:
