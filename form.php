@@ -9,11 +9,10 @@
     <title>php-strong-password-generator</title>
 </head>
 <body>
-<form action="elabora.php">
+<form action="elabora.php" method="GET">
     <input type="number" placeholder="Scrivi la tua password" name="inputUtente">
     <button type="select">INVIA</button>
 </form>
 
-    
 </body>
 </html>

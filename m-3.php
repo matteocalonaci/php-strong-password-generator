@@ -1,5 +1,5 @@
 <?php
-include 'functions.php';
+include __DIR__ . "/functions.php";
 // genera un numero casuale da 0 a 10
 // $provaSeleZione = rand(0,10);
 
@@ -14,13 +14,12 @@ $caratteri = [
     // --> 26 
     "0123456789",
     // --> 10
-    "&%?!"
+    "&%?!",
     // --> 4
     ];
     
-    //  calcola la lunghezza della stringa
-    // $ultimoElemnto = strlen($caratteri[1]) -1;
-    // echo $ultimoElemnto;
+    
+   
 
     
 $password = "";
@@ -34,10 +33,10 @@ $password = "";
     <title>php-strong-password-generator</title>
 </head>
 <body>
-<form action="m-3.php">    <input type="number" placeholder="Scrivi la tua password" name="inputUtente">
+<form action="m-3.php" method="GET">    
+    <input type="number" placeholder="Scrivi la tua password" name="inputUtente">
     <button type="select">INVIA</button>
 </form>
-
 <h3>La password sicura è : </h3>
 <?php echo getPassword($caratteri, $inputUtente, $password);
 ?>

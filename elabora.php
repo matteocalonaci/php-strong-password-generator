@@ -24,7 +24,7 @@ $caratteri = [
     // echo $ultimoElemnto;
 
     
-$password = "";
+$password ="";
 ?>
 
 <!DOCTYPE html>
@@ -39,8 +39,8 @@ $password = "";
 
     // ciclo for tante x quante richieste dall'utente
 
-for ($i = 0; $i <= $inputUtente; $i++) { 
-    $xPassword = $xPassword . "x";
+for ($i = 0; $i < $inputUtente; $i++) { 
+    $xPassword.="x";
     
 }
 echo "<h3> La password è : $xPassword </h3>";
