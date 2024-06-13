@@ -4,7 +4,7 @@
 // $provaSeleZione = rand(0,10);
 
 
-$inputUtente = $_GET["inputUtente"] ?? "Null";
+$inputUtente = $_GET["inputUtente"] ?? 0;
 
 $xPassword ="";
 
